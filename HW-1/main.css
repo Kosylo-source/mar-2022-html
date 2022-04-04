@@ -1,0 +1,35 @@
+body {
+    background: #ffd289;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+
+}
+h1 {
+    background: #ffbc00;
+    color: #020202;
+    text-align: center;
+}
+h2  {
+    background: #ffc82e;
+    text-align: center;
+}
+a {
+    background: #ffbc00;
+    color: #070707;
+}
+p {
+    background: #e3dd5d;
+    color: #020202;
+    text-align: justify;
+}
+ul {
+    background: orange;
+    color: #020202;
+}
+li {
+    background: goldenrod;
+    color: #070707;
+}
