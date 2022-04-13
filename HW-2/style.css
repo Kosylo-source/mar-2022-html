@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    align-items: center;
+justify-content: center;
+}
+.target {
+    height: 100vh;
+    width: 500px;
+
+}
+.widgets {
+    width: 100%;
+    height:180px;
+    background: dodgerblue;
+}
+.widgets-box {
+    display: flex;
+    height: 150px;
+    background: #fff;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.widget {
+    background: mediumblue;
+    height: 100%;
+    width: 32%;
+    margin-right: 5px;
+    margin-left: 5px;
+
+}
+.contacts {
+    width: 100%;
+    height: 300px;
+    background: dodgerblue;
+}
