@@ -1,0 +1,63 @@
+
+.card {
+    height: 500px;
+    background: silver;
+
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.incard {
+    height: 450px;
+    width: 300px;
+    background: #ffffff;
+
+    box-sizing: border-box;
+    border: 1px solid #000;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+
+}
+
+.head {
+    height: 150px;
+    width: 100%;
+
+    font-size: 50px;
+    font-family: "Microsoft Himalaya", "Droid Serif";
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.text {
+    height: 120px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    align-items: center;
+}
+
+.link {
+    height: 60px;
+    width: 100%;
+    font-size: 25px;
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    margin-top: 5px;
+    text-decoration: none;
+    color: #000000;
+}

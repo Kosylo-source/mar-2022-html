@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+}
+
+.bllue {
+    height: 420px;
+    width: 700px;
+    background: lightskyblue;
+    display: flex;
+
+}
+
+
+.side {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card {
+    width: 300px;
+    height: 100px;
+    background: whitesmoke;
+    border-radius: 5px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.fa-quote-left {
+
+    width: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: gray;
+
+    font-size: 30px;
+
+
+}
+
+.description {
+    width: 220px;
+
+}
+
+.title {
+    font-family: Cambria,Serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ffc82e;
+    font-size: 18px;
+
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+.text {
+    color: gray;
+    font-size: 14px;
+
+}
