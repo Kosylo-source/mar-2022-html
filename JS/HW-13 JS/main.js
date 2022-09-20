@@ -206,10 +206,12 @@
 //         modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'sass']
 //     }
 // ];
+
 // Створити для кожного елементу масиву свій блок, блок розділити блоками, в яких будуть зберігатись значення окремих властивостей, для властивості modules зробити список з елементами
 // Приклад структири знаходиться у файлі example.png
 // for (const item of coursesArray) {
 //
+
 //     let htmlDivElement = document.createElement('div');
 //     let h2Elem = document.createElement('h2');
 //     h2Elem.innerText = item.title;

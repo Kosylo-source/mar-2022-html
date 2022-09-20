@@ -1,7 +1,6 @@
 // - Створити змінні. Присвоїти кожному з них значення:
 // 'hello','owu','com', 'ua', 1, 10, -999, 123, 3.14, 2.7, 16, true, false.
 //     Вивести кожну змінну за допомогою: console.log , alert, document.write
-
 // let a1 = 'hello';
 // let a2 = 'owu';
 // let a3 = 'com';
@@ -56,11 +55,9 @@
 // }
 // console.log(book2);
 
-
 // - Створити 3 змінних firstName, middleName, lastName,
 // наповнити їх своїм ПІБ. З'єднати їх в одну змінну person
 // (Не об'єкт, просто за допомоги конкатенації)
-
 // let firstName = 'Volodymyr';
 // let middleName = 'Igorovych';
 // let lastName = 'Kosylo';
@@ -78,7 +75,6 @@
 
 // - За допомогою 3х різних prompt() отримати 3 слова які являються вашими
 // Ім`ям, По-Батькові та роками. та вивести в консоль
-
 // let firstname = prompt ('enter your first name');
 // let middlename = prompt ('enter your middle name');
 // let lastname = prompt('enter your last name');

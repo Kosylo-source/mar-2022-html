@@ -156,24 +156,61 @@
 
 //Створити під кожен об'єкт свій блок з колонкою "додати до улюблених", при натисканні на яку, об'єкт потрапляє
 //до масиву faivorite у локальному сховищі.
-const   faivoriteKey = 'faivorites';
-localStorage.setItem(faivoriteKey, JSON.stringify([]));
-const container = document.getElementById('container');
+// const   faivoriteKey = 'faivorites';
+// localStorage.setItem(faivoriteKey, JSON.stringify([]));
+// const container = document.getElementById('container');
+//
+// users.forEach(user => {
+//     const userDiv = document.createElement('div');
+//
+//     const content = document.createElement('div');
+//     content.innerText = `Name: ${user.name}\nAge: ${user.age}\nStatus: ${user.status}`;
+//
+//     let btn = document.createElement('button');
+//     btn.innerText = 'Add to favourites';
+//     btn.onclick = () => {
+//         JSON.parse(localStorage.getItem(favouritesKey)) || [];
+//         favourites.push(user);
+//         localStorage.setItem(faivoriteKey, JSON.stringify(favourites));
+//         btn.disabled = true;
+//     }
+//     userDiv.append(content, btn);
+//     container.append(userDiv)
+// })
 
-users.forEach(user => {
-    const userDiv = document.createElement('div');
+//При виділенні сегменту тексту на сторінці він стає жирний або якось інакше змінює свій стан.
+// let bold = document.getElementById('bold')[0];
+// bold.onmouseup = function () {
+//     let select = document.getSelection().toString();
+//     bold.innerHTML = bold.innerText.replace(`select, <b>${select}</b>`)
+// }
 
-    const content = document.createElement('div');
-    content.innerText = `Name: ${user.name}\nAge: ${user.age}\nStatus: ${user.status}`;
-
-    let btn = document.createElement('button');
-    btn.innerText = 'Add to favourites';
-    btn.onclick = () => {
-        JSON.parse(localStorage.getItem(favouritesKey)) || [];
-        favourites.push(user);
-        localStorage.setItem(faivoriteKey, JSON.stringify(favourites));
-        btn.disabled = true;
-    }
-    userDiv.append(content, btn);
-    container.append(userDiv)
+//Проміси
+let one = new Promise((resolve, reject) => {
+    setTimeout(()=> {
+        resolve(1)
+    }, 2000)
 })
+
+let two = new Promise((resolve, reject) => {
+    setTimeout(()=> {
+        reject(2)
+    }, 1000)
+})
+let three = new Promise((resolve, reject) => {
+    setTimeout(()=> {
+        resolve(3)
+    }, 4000)
+})
+
+// Promise.race([one, two, three]).then(value => {
+//     console.log(value);
+// })
+
+// Promise.all([one, two, three]).then(value => {
+//     console.log(value);
+// })
+
+// Promise.allSettled([one, two, three]).then(value => {
+//     console.log(value);
+// })

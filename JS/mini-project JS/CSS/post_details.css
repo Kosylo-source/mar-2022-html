@@ -1,0 +1,30 @@
+.body {
+    margin: 0;
+}
+
+.Wrap2 {
+
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+
+.buttonWrap {
+    width: 24%;
+    display: flex;
+
+    margin-top: 10px;
+    justify-content: start;
+    box-sizing: border-box;
+    background: whitesmoke;
+    flex-direction: column;
+
+    border: 1px solid #000;
+
+}
+
+.button {
+    background: cornflowerblue;
+}

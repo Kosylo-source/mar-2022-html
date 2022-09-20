@@ -1,0 +1,112 @@
+.body {
+    margin: 0;
+}
+
+.htmlDivElement {
+
+    justify-content: start;
+}
+.htmlDivElement p:hover {background: #786b59;
+    color: #ffe;}
+
+/*.adress:hover {background: #786b59;*/
+/*    color: #ffe;}*/
+
+.htmlDivElement li:hover {background: #786b59;
+    color: #ffe;}
+
+
+.postDivElement {
+
+
+     display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.userDetailsButton:hover {background: #786b59;
+    color: #ffe;
+}
+.userDetailsButton {
+
+  width: 90vw;
+    background: #32c6a4;
+
+}
+
+.h2class {
+    display: flex;
+    justify-content: center;
+    font-family: "Microsoft Himalaya", "Droid Serif";
+
+
+}
+
+
+
+
+.wrap2 {
+    display: flex;
+    width: 19%;
+height: 80px;
+    justify-content: center;
+    box-sizing: border-box;
+    background: whitesmoke;
+flex-direction: column;
+    align-items: center;
+    border: 1px solid #000;
+    margin-top: 15px;
+
+
+
+}
+
+.buttonPost {
+
+    background: #32c6a4;
+}
+
+.buttonPost:hover {background: #786b59;
+    color: #ffe;
+}
+
+.wrap3 {
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.innerText::first-letter {
+    text-transform: uppercase;
+}
+
+.titleDiv {
+
+    display: flex;
+    align-items: center;
+    margin: 0;
+    height: 150px;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+
+
+.wrap4 {
+    width: 100%;
+    height: 120px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
